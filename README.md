@@ -1,4 +1,4 @@
-# Demo app for building an AI chat with LangChain4j, Spring Boot, React, and Hilla
+# Demo Chatbot for Xalaxian Chanllenge 2023
 
 ## Technologies used
 - [LangChain4j](https://github.com/langchain4j)
@@ -12,3 +12,6 @@
 
 ## Running the app
 Run the app by running `Application.java` in your IDE or with the default Maven command `mvn`.
+
+### Credits
+The demo is based on Marcus Hellberg repo (https://github.com/marcushellberg/spring-boot-react-langchain-chatgpt).

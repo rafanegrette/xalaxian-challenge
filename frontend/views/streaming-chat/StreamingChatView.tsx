@@ -29,7 +29,7 @@ export default function StreamingChatView() {
             if (first && chunk) {
                 addMessage({
                     text: chunk,
-                    userName: 'Assistant'
+                    userName: 'X-Assistant'
                 });
 
                 first = false;

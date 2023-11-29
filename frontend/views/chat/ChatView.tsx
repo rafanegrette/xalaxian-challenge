@@ -15,7 +15,7 @@ export default function ChatView() {
         const response = await ChatService.chat(message);
         setMessages(messages => [...messages, {
             text: response,
-            userName: 'Assistant'
+            userName: 'X-Assistant'
         }]);
     }
 

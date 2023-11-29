@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <!-- Project from https://start.vaadin.com/project/aed5f6a6-451d-4036-8eb3-2f184d474741 -->
     <groupId>com.example.application</groupId>
-    <artifactId>spring-boot-react-langchain-chatgpt</artifactId>
-    <name>spring-boot-react-langchain-chatgpt</name>
+    <artifactId>xalaxian-chatbot</artifactId>
+    <name>xalaxian-chatbot</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -49,8 +49,20 @@
 
         <dependency>
             <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-open-ai</artifactId>
+            <version>0.24.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
             <artifactId>langchain4j</artifactId>
-            <version>0.22.0</version>
+            <version>0.24.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-embeddings-all-minilm-l6-v2-q</artifactId>
+            <version>0.24.0</version>
         </dependency>
 
         <dependency>
