@@ -21,7 +21,8 @@ export default function StreamingChatView() {
     async function sendMessage(message: string) {
         addMessage({
             text: message,
-            userName: 'You'
+            userName: 'You',
+            userColorIndex: 1
         });
 
         let first = true;
@@ -29,7 +30,9 @@ export default function StreamingChatView() {
             if (first && chunk) {
                 addMessage({
                     text: chunk,
-                    userName: 'X-Assistant'
+                    userName: 'X-Assistant',
+                    userImg: 'https://www.svgrepo.com/show/217211/alien.svg',
+                    userColorIndex: 2
                 });
 
                 first = false;
